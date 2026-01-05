@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>Change notes</title>
+		<dateCreated>Fri, 25 Apr 2025 12:55:56 GMT</dateCreated>
+		<description>Info about new versions of WordLand.</description>
+		<urlPublic>https://this.how/wordland/versions.opml</urlPublic>
+		<ownerId>dave.winer@gmail.com</ownerId>
+		<urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
+		<dateModified>Sun, 24 Aug 2025 14:38:58 GMT</dateModified>
+		<expansionState>1,3,7,11,18</expansionState>
+		<lastCursor>2</lastCursor>
+		</head>
+	<body>
+		<outline text="What is this?" created="Fri, 25 Apr 2025 12:55:56 GMT">
+			<outline text="A place where I'll post notes about new versions of &lt;a href=&quot;https://wordland.social/&quot;&gt;WordLand&lt;/a&gt;.  " created="Fri, 25 Apr 2025 12:57:13 GMT"/>
+			</outline>
+		<outline text="v0.5.24, July 22, 2025" created="Tue, 22 Jul 2025 13:01:36 GMT">
+			<outline text="Fixed a problem where the Markdown icon would not appear in some user's icon bar." created="Tue, 22 Jul 2025 13:02:01 GMT"/>
+			<outline text="Changed from H3 to H4 in the popup menu. It's a better size fit to the text we create in WordLand, and to compensate we changed the style for H3 to be H4-like. The best resolution to this problem is to change the &lt;a href=&quot;https://imgs.scripting.com/2025/07/22/popupScreenshot.png&quot;&gt;popup menu&lt;/a&gt; to reflect reality. If you really want H3 now you can go into Markdown mode and add it manually. " created="Tue, 22 Jul 2025 13:02:28 GMT"/>
+			</outline>
+		<outline text="v0.5.22, July 21, 2025" created="Mon, 21 Jul 2025 21:29:10 GMT">
+			<outline text="Markdown mode. " created="Mon, 21 Jul 2025 21:29:37 GMT">
+				<outline text="Here's a &lt;a href=&quot;https://www.youtube.com/watch?v=aV3FZN0bdNk&amp;t=4s&quot;&gt;video demo&lt;/a&gt;. " created="Mon, 21 Jul 2025 21:34:23 GMT"/>
+				<outline text="You can use it to see what's behind the wizzy view. Or to add elements that aren't supported in the wizzy user interface. " created="Mon, 21 Jul 2025 21:30:50 GMT"/>
+				<outline text="Good for little tune-ups. Not all elements will look good in WordLand. " created="Mon, 21 Jul 2025 21:31:22 GMT"/>
+				<outline text="We remember how you last edited a post, if it was in Markdown mode, next time you edit it, it will still be in Markdown mode. New posts begin in wizzy mode. " created="Mon, 21 Jul 2025 21:33:26 GMT"/>
+				</outline>
+			<outline text="Wordcount and (now) charcount" created="Mon, 21 Jul 2025 21:32:56 GMT">
+				<outline text="When you click on the wordcount readout at the bottom of the editing window, it switches to character count. Click again and it goes back to word count. When you hover, the tooltip tells you the other value. This is saved as a pref, so next time you run WordLand it will be remembered. We needed charcount because with the linkblogging feature sometimes we're writing to be posted on sites with character limits." created="Mon, 21 Jul 2025 21:32:54 GMT"/>
+				</outline>
+			<outline text="Cosmetic changes" created="Mon, 21 Jul 2025 21:32:37 GMT">
+				<outline text="The context menu pops up to the left instead of the right so it's visible on smaller screens." created="Mon, 21 Jul 2025 21:32:42 GMT"/>
+				<outline text="The three dots for the context menu changed from horizontal to vertical, because it seemed closer to what the click actually does. "/>
+				</outline>
+			</outline>
+		<outline text="v0.5.19, July 4, 2025" created="Fri, 04 Jul 2025 21:33:44 GMT">
+			<outline text="Fixed bug in &lt;a href=&quot;https://this.how/wordland/bookmarklet.opml&quot;&gt;bookmarklet&lt;/a&gt; where new bookmarklet post would go to the wrong website! Ooops. I didn't test this well enough. Oy. " created="Fri, 04 Jul 2025 21:34:47 GMT"/>
+			<outline text="When you post an item via bookmarklet, the airplane icon is initially black, not dimmed. " created="Fri, 04 Jul 2025 21:34:50 GMT"/>
+			<outline text="Made the box for editing a title 5 characters wider. There was room, why not use it." created="Fri, 04 Jul 2025 21:34:00 GMT"/>
+			<outline text="Reorganized the context menu:" created="Fri, 04 Jul 2025 21:34:27 GMT">
+				<outline text="Deleted &lt;i&gt;Add category&lt;/i&gt; and &lt;i&gt;Delete category&lt;/i&gt; commands from the context menu. They predate &lt;i&gt;Edit all categories&lt;/i&gt; which does a better job of adding and deleting categories than the individual commands. " created="Fri, 04 Jul 2025 21:34:48 GMT"/>
+				<outline text="Changed the name of &lt;i&gt;Edit all categories&lt;/i&gt; command to &lt;i&gt;Edit categories.&lt;/i&gt; " created="Fri, 04 Jul 2025 21:35:58 GMT"/>
+				<outline text="Moved things around so they fit better together." created="Fri, 04 Jul 2025 21:35:58 GMT"/>
+				</outline>
+			</outline>
+		<outline text="v0.5.17, July 3, 2025" created="Thu, 03 Jul 2025 13:11:41 GMT">
+			<outline text="When building our WordLand-generated RSS feeds, we only include posts that have been published. Previously included unpublished drafts. This problem has always been there. :-)" created="Thu, 03 Jul 2025 13:12:17 GMT"/>
+			<outline text="Previously, for items that came in through the bookmarklet, we'd tack on an &amp;lt;a href&gt; that points to the destination of the link, so you could subscribe to the linkblog feed in a feed reader like Feedly or NNW. We no longer do that. " created="Thu, 03 Jul 2025 13:12:52 GMT">
+				<outline text="That broke the &lt;a href=&quot;http://scripting.com/?tab=links&quot;&gt;Links page&lt;/a&gt; on Scripting News, which is basically a linkblog feed reader. " created="Thu, 03 Jul 2025 13:14:59 GMT"/>
+				<outline text="So now basically a feed reader has to be &quot;linkblog-aware&quot; for it to make sense to subscribe to a linkblog feed. Since mine is probably the only such feed in the world at this time, not a big loss. " created="Thu, 03 Jul 2025 13:16:11 GMT"/>
+				<outline text="I did a &lt;a href=&quot;https://github.com/scripting/wordlandDev/issues/2&quot;&gt;writeup on the problem&lt;/a&gt; for developers of feed readers. " created="Thu, 03 Jul 2025 13:16:40 GMT"/>
+				<outline text="The net-net is I think you should view the item-level link item to be like an enclosure, something you should give special prominence to in the reader user interface. " created="Thu, 03 Jul 2025 13:16:48 GMT"/>
+				<outline text="Basically this is keeping with the philosophy of the reader I'm working on. It will work with a subset of RSS feeds. I'm saying that basically it's time to go further with feeds. Of course respecting the frozen-ness of RSS 2.0, new elements only in a new namespace. " created="Thu, 03 Jul 2025 13:17:14 GMT"/>
+				</outline>
+			</outline>
+		<outline text="v0.5.16, July 2, 2025" created="Wed, 02 Jul 2025 20:34:36 GMT">
+			<outline text="There's a &lt;a href=&quot;https://this.how/wordland/bookmarklet.opml&quot;&gt;bookmarklet&lt;/a&gt; for linkblogging in WordLand. Instructions are provided to install it in a browser on your desktop. " created="Wed, 02 Jul 2025 20:50:12 GMT">
+				<outline text="You can also if you persist install it on a phone or laptop, but you should get the help of an AI bot like ChatGPT. I found it too complicated the write the instructions for every situation. It's nice that we can rely on AI bots to write custom docs for exactly your situation." created="Wed, 02 Jul 2025 21:00:15 GMT"/>
+				</outline>
+			<outline text="Linkblog defaults" created="Wed, 02 Jul 2025 21:10:23 GMT">
+				<outline text="You can choose the site your linkblog posts go to with a new command in the Tools menu, in the Linkblog sub-menu. There's also a command that lets you set the default categories for a new linkblog post. This eliminates two of the steps in creating a new linkblog post, which is good because you like to get it done as quickly as possible and get back to what you're doing. &lt;a href=&quot;https://imgs.scripting.com/2025/07/02/linkblogCommands.png&quot;&gt;Screen shot&lt;/a&gt;." created="Wed, 02 Jul 2025 20:44:33 GMT"/>
+				</outline>
+			<outline text="New tooltips" created="Wed, 02 Jul 2025 21:09:56 GMT">
+				<outline text="When you hover over the word count in the status area below the edit box you will see a character count. Since we're now writing stuff that may appear in character-limited places, sometimes you need to know whether you've gone over the limit. &lt;a href=&quot;https://imgs.scripting.com/2025/07/02/hoverOverWordCount.png&quot;&gt;Screen shot&lt;/a&gt;. " created="Wed, 02 Jul 2025 20:35:37 GMT"/>
+				<outline text="Hover over the when-posted readout in the status area to see the exact day and time when the post was created. &lt;a href=&quot;https://imgs.scripting.com/2025/07/02/hoverDateAndTime.png&quot;&gt;Screen shot&lt;/a&gt;." created="Wed, 02 Jul 2025 20:41:45 GMT"/>
+				</outline>
+			<outline text="A new command in the Tools menu, &lt;a href=&quot;https://imgs.scripting.com/2025/07/02/cnamesDialog.png&quot;&gt;Edit Feed Cnames&lt;/a&gt;.   " created="Wed, 02 Jul 2025 20:53:24 GMT">
+				<outline text="It associates a short name: dave.linkblog.org with a longer name. " created="Wed, 02 Jul 2025 20:57:05 GMT"/>
+				<outline text="What it does is quite simple. When it builds the feed in the second column, it does an rssCloud ping for the name in the first column. This means that any reader that's subscribed to the feed will be able to instantly update the feed. I wanted to use the shorter name myself, and wanted to leave the option open for others to do the same. " created="Wed, 02 Jul 2025 20:57:34 GMT"/>
+				<outline text="It's really useful in conjunction with linkblogs, but you can do the association with any feed that WordLand generates." created="Wed, 02 Jul 2025 21:07:55 GMT"/>
+				</outline>
+			<outline text="Linkblog posts now include a link to the post in the text of the post on the WordPress site and in the description element of the item in the RSS feeds, both the one produced by WordPress and the one produced by WordLand. This was an oversight in the initial release of my linkblog feed. An &lt;a href=&quot;https://linkblog3.wordpress.com/2025/07/01/8515/&quot;&gt;example&lt;/a&gt; of a linkblog post on the WordPress site for my linkblog. " created="Wed, 02 Jul 2025 20:48:30 GMT"/>
+			<outline text="Questions or comments &lt;a href=&quot;https://github.com/scripting/wordlandSupport/issues/98&quot;&gt;here&lt;/a&gt;. " created="Wed, 02 Jul 2025 21:37:17 GMT"/>
+			</outline>
+		<outline text="v0.5.15, June 26, 2025" created="Thu, 26 Jun 2025 13:49:47 GMT" flBulletedSubs="true">
+			<outline text="Choosing a site now remembers previous sites you've chosen. When you choose a site, it goes to the top of the list. So the sites you never access will drop to the bottom and the ones you use often will rise to the top. This helps if you have access to a lot of sites. " created="Thu, 26 Jun 2025 13:50:16 GMT"/>
+			<outline text="In the editor, previously, before you entered a title the text Title? would appear in the edit box. Now it's a placeholder -- displayed in gray, and when you start typing it goes away. This is standard UI. " created="Thu, 26 Jun 2025 13:52:45 GMT"/>
+			<outline text="First features for linkblogging are in this version, not complete yet. When it's ready there will be a document just for doing linkblogs in WordLand.  " created="Thu, 26 Jun 2025 13:49:57 GMT"/>
+			<outline text="A new GitHub repo for developer support, &lt;a href=&quot;https://github.com/scripting/wordlandDev&quot;&gt;wordlandDev&lt;/a&gt;. I'm starting to focus on facets of WordLand that involve other developers, relating to feeds and protocols. This is a place for developers to work, separate from user-level support." created="Thu, 26 Jun 2025 14:01:19 GMT"/>
+			</outline>
+		<outline text="More info" created="Tue, 22 Jul 2025 20:20:24 GMT">
+			<outline text="For more general information about WordLand see the &lt;a href=&quot;https://this.how/wordland/&quot;&gt;howto doc&lt;/a&gt;. " created="Tue, 22 Jul 2025 20:18:16 GMT"/>
+			<outline text="This doc, and WordLand, were written by &lt;a href=&quot;https://davewiner.com/&quot;&gt;Dave Winer&lt;/a&gt;." created="Tue, 22 Jul 2025 20:20:30 GMT"/>
+			</outline>
+		</body>
+	</opml>
