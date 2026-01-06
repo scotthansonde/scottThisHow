@@ -1,0 +1,1 @@
+These are outlines for the scott.this.how website
