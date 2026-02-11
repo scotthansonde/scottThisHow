@@ -3,14 +3,18 @@
 	<head>
 		<title>FeedLand Docker Compose</title>
 		<dateCreated>Wed, 11 Feb 2026 16:28:14 GMT</dateCreated>
-		<dateModified>Wed, 11 Feb 2026 16:29:38 GMT</dateModified>
+		<dateModified>Wed, 11 Feb 2026 17:15:11 GMT</dateModified>
 		<urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-		<expansionState>1</expansionState>
-		<lastCursor>1</lastCursor>
+		<expansionState>1,3</expansionState>
+		<lastCursor>4</lastCursor>
 		</head>
 	<body>
 		<outline text="These will be the updated notes for Feedland Docker Install" created="Wed, 11 Feb 2026 16:28:14 GMT">
-			<outline text="The repo is at https://github.com/scotthansonde/feedlandDockerCompose" created="Wed, 11 Feb 2026 16:29:07 GMT"/>
+			<outline text="The repo is at &lt;a href=&quot;https://github.com/scotthansonde/feedlandDockerCompose&quot;&gt;https://github.com/scotthansonde/feedlandDockerCompose&lt;/a&gt;" created="Wed, 11 Feb 2026 16:29:07 GMT"/>
+			<outline text="The FeedLand Docker image is at &lt;a href=&quot;https://hub.docker.com/r/scotthansonde/feedland&quot;&gt;https://hub.docker.com/r/scotthansonde/feedland&lt;/a&gt;" created="Wed, 11 Feb 2026 17:12:43 GMT">
+				<outline text="The Dockerfile for the image was inspired by &lt;a href=&quot;https://github.com/cshotton/feedlandInstall&quot;&gt;https://github.com/cshotton/feedlandInstall&lt;/a&gt;" created="Wed, 11 Feb 2026 17:13:19 GMT"/>
+				<outline text="The Dockerfile itself and the GitHub Action to generate the image is at &lt;a href=&quot;https://github.com/scotthansonde/feedlandDockerInstall&quot;&gt;https://github.com/scotthansonde/feedlandDockerInstall&lt;/a&gt;  " created="Wed, 11 Feb 2026 17:14:07 GMT"/>
+				</outline>
 			</outline>
 		</body>
 	</opml>
