@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>FeedLand Docker Compose</title>
+		<dateCreated>Wed, 11 Feb 2026 16:28:14 GMT</dateCreated>
+		<dateModified>Wed, 11 Feb 2026 16:29:38 GMT</dateModified>
+		<urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
+		<expansionState>1</expansionState>
+		<lastCursor>1</lastCursor>
+		</head>
+	<body>
+		<outline text="These will be the updated notes for Feedland Docker Install" created="Wed, 11 Feb 2026 16:28:14 GMT">
+			<outline text="The repo is at https://github.com/scotthansonde/feedlandDockerCompose" created="Wed, 11 Feb 2026 16:29:07 GMT"/>
+			</outline>
+		</body>
+	</opml>
